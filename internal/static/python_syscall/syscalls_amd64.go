@@ -36,6 +36,8 @@ var ALLOW_SYSCALLS = []int{
 	syscall.SYS_TIME,
 
 	syscall.SYS_RT_SIGPROCMASK, syscall.SYS_SIGALTSTACK, SYS_GETRANDOM,
+
+	syscall.SYS_PIPE2,
 }
 
 var ALLOW_ERROR_SYSCALLS = []int{
